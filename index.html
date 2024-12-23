@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dulce Amor - Pastelería con los mejores postres hechos con amor.">
+  <meta name="keywords" content="pastelería, postres, recetas, chocolate, fresa, limón">
+  <title>Pastelería Dulce Amor</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+        background: linear-gradient(to bottom, #ffccff, #ff99cc);
+        min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+        margin: 0; /* Elimina el margen por defecto */
+        font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+    }
+</style>
+</head>
+<body>
+
+    <!-- Sección de Inicio -->
+    <header class="header">
+        <p> </p>
+        <h1 class="text-center"><strong>Dulce Amor</strong></h1>
+        <p class="text-center">"Disfruta de la dulzura en cada bocado. Hecho con amor."</p>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recetas.html">Recetas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#suscribirse">Suscribirse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#acerca">Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="container my-5">
+        <h2 class="text-center">Nuestros Productos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://peopleenespanol.com/thmb/h6aql9vBvBtbgoQC2jiVnYSVZs4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3a23ae4b-48b7-44eb-96a7-0e8e755683b6-2000-c618f18c242d47ca89eaddea62579593.jpg" class="card-img-top product-image" alt="Pastel de Chocolate - Delicioso pastel de chocolate con cobertura de ganache">
+                    <div class="card-body">
+                        <h5 class="card-title">Pastel de Chocolate</h5>
+                        <p class="card-text">Delicioso pastel de chocolate con cobertura de ganache.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/VYyDb1D4YPc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAQUB0z5ORFyrMFKN19tE61V4X3YQ" class="card-img-top product-image" alt="Pastel de Fresa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pastel de Fresa</h5>
+                        <p class="card-text">Suave pastel de vainilla con fresas frescas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.comidastipicaschilenas.com/wp-content/uploads/2021/02/Receta-de-TORTA-DE-LIMON.jpg" class="card-img-top product-image" alt="Tarta de Limón - Refrescante tarta de limón con merengue">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarta de Limón</h5>
+                        <p class="card-text">Refrescante tarta de limón con merengue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       
+
+    <!-- Sección de Suscribirse -->
+    <section id="suscribirse" class="container my-5">
+        <h2 class="text-center">Suscríbete</h2>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="tuemail@ejemplo.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+        </form>
+    </section>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="acerca" class="container my-5">
+        <h2 class="text-center">Acerca de Nosotros</h2>
+        <p class="text-center">Dulce Amor es una pastelería dedicada a ofrecer los mejores postres, con una historia de amor y pasión por la repostería. Nuestra misión es brindar calidad y satisfacción a nuestros clientes.</p>
+        <p class="text-center">Contáctanos a través de nuestras redes sociales o visita nuestra tienda.</p>
+    </section>
+
+    <!-- Sección de Footer -->
+    <footer class="footer">
+        <p class="text-center">&copy; 2024 Dulce Amor. Todos los derechos reservados.</p>
+        <div class="text-center">
+            <a href="#" class="me-2">Facebook</a>
+            <a href="#" class="me-2">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

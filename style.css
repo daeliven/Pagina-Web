@@ -1,0 +1,71 @@
+.page-section {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo para pantallas grandes */
+    height: 300px; /* Altura fija para una página horizontal */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding dentro del tamaño total */
+}
+/* Estilo general */
+body {
+    background-color: #fff8f0;
+    color: #5a5a5a;
+}
+
+/* Encabezado */
+.header {
+    background-color: #ffc1cc;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #ff8fa3;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #ffdbe3;
+}
+
+/* Secciones */
+.section-title {
+    color: #ff5a7d;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #ff5a7d;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff8fa3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
